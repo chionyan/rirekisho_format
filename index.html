@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>履歴書フォーマット</title>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="left-page">
+      <div class="left-top">
+        <div class="left-top-left">
+          <div class="left-top-left-top">
+            <div class="left-top-left-top-left">
+              <p class="deco deco_title">履歴書</p>
+            </div>
+
+            <!-- 作成日時 -->
+            <div class="left-top-left-top-right">
+              <p class="input_today">
+                <span class="input">yyyy</span> <!-- 現在の年を入力してね！ -->
+                <span class="deco">年</span>
+                <span class="input">mm</span> <!-- 現在の月を入力してね！ -->
+                <span class="deco">月</span>
+                <span class="input">dd</span> <!-- 現在の日を入力してね！ -->
+                <span class="deco">日現在</span>
+              </p>
+            </div>
+
+          <!-- 基本情報 -->
+          </div>
+          <div class="left-top-left-bottom">
+            <div class="left-top-left-bottom-top">
+              <div class="left-top-left-bottom-top__name-kana">
+                <p class="deco deco_name-kana">ふりがな</p>
+                <p class="input input_name-kana">りれき しょういち</p> <!-- 氏名のふりがなを入力してね！ -->
+              </div>
+              <div class="left-top-left-bottom-top__name-kanji">
+                <p class="deco deco_name-kanji">氏名</p>
+                <p class="input input_name-kanji">履歴 正一</p> <!-- 氏名を漢字で入力してね！ -->
+              </div>
+            </div>
+            <div class="left-top-left-bottom-bottom">
+              <div class="left-top-left-bottom-bottom__birthday">
+                <p class="deco deco_birthday">生年月日</p>
+                <p class="input_birthday">
+                  <span class="input">yyyy</span> <!-- 生まれた年を入力してね！ -->
+                  <span class="deco">年</span>
+                  <span class="input">mm</span> <!-- 生まれた月を入力してね！ -->
+                  <span class="deco">月</span>
+                  <span class="input">dd</span> <!-- 生まれた日を入力してね！ -->
+                  <span class="deco">日</span>
+                  <span class="deco">(満</span>
+                  <span class="input">XX</span> <!-- 現在の年齢を入力してね！ -->
+                  <span class="deco">歳)</span>
+                </p>
+              </div>
+              <div class="left-top-left-bottom-bottom__sex">
+                <p class="deco deco_sex">男 女</p>
+                <p class="input input_sex">○ 　</p> <!-- 男性の方は下の行をコメントアウトしてね！ -->
+                <!-- <p class="input input_sex">　 ○</p> 女性の方は上の行をコメントアウトしてね！ -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- 証明写真 -->
+        <div class="left-top-right">
+          <div class="left-top-right__photo">
+            <img src="./images/sample.jpg" alt="証明写真"> <!-- imagesフォルダに証明写真を入れてリンクを書き換えてね！ -->
+          </div>
+        </div>
+      </div>
+
+      <!-- 連絡先など -->
+      <div class="left-center">
+        <div class="left-center-top">
+          <div class="left-center-top-left">
+            <div class="left-center-top-left__address-kana">
+              <p class="deco deco_address-kana">ふりがな</p>
+              <p class="input input_address-kana">とうきょうとしんじゅくくにししんじゅく2-8-1</p> <!-- 現在の住所のふりがなを入力してね！ -->
+            </div>
+            <div class="left-center-top-left__address-kanji">
+              <p class="deco deco_address-kanji">現住所</p>
+              <p class="deco deco_address-number">〒</p>
+              <p class="input input_address-number">163-8001</p> <!-- 現在の郵便番号を入力してね！ -->
+              <p class="input input_address-kanji">東京都新宿区西新宿2-8-1</p> <!-- 現在の住所のを入力してね！ -->
+            </div>
+          </div>
+          <div class="left-center-top-right">
+            <div class="tel-number">
+              <p class="deco deco_tel-number">電話番号</p>
+              <p class="input input_tel-number">03-5321-<br>1111</p> <!-- 電話番号を入力してね！<br>は残しておいてね！ -->
+            </div>
+          </div>
+        </div>
+
+        <div class="left-center-bottom">
+          <div class="left-center-bottom-left">
+            <div class="left-center-bottom-left__contact-kana">
+              <p class="deco deco_contact-kana">ふりがな</p>
+              <p class="input input_contact-kana"></p> <!-- 連絡先を希望する人は住所のふりがなを入力してね！ -->
+            </div>
+            <div class="left-center-bottom-left__contact-kanji">
+              <p class="deco deco_contact-kanji">連絡先</p>
+              <p class="deco deco_contact-address-number">〒</p>
+              <p class="deco deco_contact-note">（現住所以外に連絡を希望する場合のみ記入）</p>
+              <p class="input input_contact-address-number">000-0000</p> <!-- 連絡先を希望する人は郵便番号を入力して、style.css の 297 行目をコメントアウトしてね！ -->
+              <p class="input input_contact-kanji">同上</p> <!-- 連絡先を希望する人は住所を入力してね！ -->
+            </div>
+          </div>
+          <div class="left-center-bottom-right">
+            <div class="email">
+              <p class="deco deco_email">メールアドレス</p>
+              <p class="input input_email">hogehoge@<br>example.com</p> <!-- メールアドレスを入力してね！<br>は残しておいてね！ -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 学歴・職歴 -->
+      <div class="left-bottom">
+        <div class="left-bottom-head">
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="deco">年</p></div>
+            <div class="left-bottom-row__month"><p class="deco">月</p></div>
+            <div class="left-bottom-row__content"><p class="deco">学歴・職歴</p></div>
+          </div>
+        </div>
+        <div class="left-bottom-body">
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input"></p></div> <!-- いい感じに学歴と職歴を書いてください。 -->
+            <div class="left-bottom-row__month"><p class="input"></p></div>
+            <div class="left-bottom-row__content"><p class="input">【学歴】</p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input">2010年</p></div>
+            <div class="left-bottom-row__month"><p class="input">3月</p></div>
+            <div class="left-bottom-row__content"><p class="input">ホゲホゲ高等学校 卒業</p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input">2010年</p></div>
+            <div class="left-bottom-row__month"><p class="input">4月</p></div>
+            <div class="left-bottom-row__content"><p class="input">スゴイ大学経営学部経営学科 入学</p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input">2014年</p></div>
+            <div class="left-bottom-row__month"><p class="input">3月</p></div>
+            <div class="left-bottom-row__content"><p class="input">スゴイ大学経営学部経営学科 卒業</p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input"></p></div>
+            <div class="left-bottom-row__month"><p class="input"></p></div>
+            <div class="left-bottom-row__content"><p class="input"></p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input"></p></div>
+            <div class="left-bottom-row__month"><p class="input"></p></div>
+            <div class="left-bottom-row__content"><p class="input">【職歴】</p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input">2014年</p></div>
+            <div class="left-bottom-row__month"><p class="input">4月</p></div>
+            <div class="left-bottom-row__content"><p class="input">スゴイスゴイ株式会社 入社</p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input">2017年</p></div>
+            <div class="left-bottom-row__month"><p class="input">3月</p></div>
+            <div class="left-bottom-row__content"><p class="input">スゴイスゴイ株式会社 退社</p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input">2018年</p></div>
+            <div class="left-bottom-row__month"><p class="input">4月</p></div>
+            <div class="left-bottom-row__content"><p class="input">株式会社ゴイスゴイ 入社</p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input">2021年</p></div>
+            <div class="left-bottom-row__month"><p class="input">3月</p></div>
+            <div class="left-bottom-row__content"><p class="input">株式会社ゴイスゴイ 退社</p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input"></p></div>
+            <div class="left-bottom-row__month"><p class="input"></p></div>
+            <div class="left-bottom-row__content"><p class="input">現在に至る</p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input"></p></div>
+            <div class="left-bottom-row__month"><p class="input"></p></div>
+            <div class="left-bottom-row__content"><p class="input"></p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input"></p></div>
+            <div class="left-bottom-row__month"><p class="input"></p></div>
+            <div class="left-bottom-row__content"><p class="input"></p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input"></p></div>
+            <div class="left-bottom-row__month"><p class="input"></p></div>
+            <div class="left-bottom-row__content"><p class="input"></p></div>
+          </div>
+          <div class="left-bottom-row">
+            <div class="left-bottom-row__year"><p class="input"></p></div>
+            <div class="left-bottom-row__month"><p class="input"></p></div>
+            <div class="left-bottom-row__content"><p class="input"></p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 免許・資格 -->
+    <div class="right-page">
+      <div class="right-top">
+        <div class="right-top-head">
+          <div class="right-top-row">
+            <div class="right-top-row__year"><p class="deco">年</p></div>
+            <div class="right-top-row__month"><p class="deco">月</p></div>
+            <div class="right-top-row__content"><p class="deco">免許・資格</p></div>
+          </div>
+        </div>
+        <div class="right-top-body">
+          <div class="right-top-row">
+            <div class="right-top-row__year"><p class="input">2012年</p></div> <!-- いい感じに免許や資格を書いてください。 -->
+            <div class="right-top-row__month"><p class="input">8月</p></div>
+            <div class="right-top-row__content"><p class="input">普通自動車運転免許 取得</p></div>
+          </div>
+          <div class="right-top-row">
+            <div class="right-top-row__year"><p class="input">2014年</p></div>
+            <div class="right-top-row__month"><p class="input">6月</p></div>
+            <div class="right-top-row__content"><p class="input">基本情報技術者試験 合格</p></div>
+          </div>
+          <div class="right-top-row">
+            <div class="right-top-row__year"><p class="input"></p></div>
+            <div class="right-top-row__month"><p class="input"></p></div>
+            <div class="right-top-row__content"><p class="input"></p></div>
+          </div>
+          <div class="right-top-row">
+            <div class="right-top-row__year"><p class="input"></p></div>
+            <div class="right-top-row__month"><p class="input"></p></div>
+            <div class="right-top-row__content"><p class="input"></p></div>
+          </div>
+          <div class="right-top-row">
+            <div class="right-top-row__year"><p class="input"></p></div>
+            <div class="right-top-row__month"><p class="input"></p></div>
+            <div class="right-top-row__content"><p class="input"></p></div>
+          </div>
+          <div class="right-top-row">
+            <div class="right-top-row__year"><p class="input"></p></div>
+            <div class="right-top-row__month"><p class="input"></p></div>
+            <div class="right-top-row__content"><p class="input"></p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 志望動機 -->
+      <div class="right-second">
+        <div class="right-second-head">
+          <div class="right-second-row">
+            <p class="deco">志望動機</p>
+          </div>
+        </div>
+        <div class="right-second-body">
+          <div class="right-second-body_borders">
+            <div class="right-second-body_border"></div>
+            <div class="right-second-body_border"></div>
+            <div class="right-second-body_border"></div>
+            <div class="right-second-body_border"></div>
+            <div class="right-second-body_border"></div>
+            <div class="right-second-body_border"></div>
+          </div>
+          <div class="right-second-row">
+            <p class="input">志望動機を書く。</p> <!-- 志望動機はここに書いてください。ブラウザではみ出ないくらいで。 -->
+          </div>
+        </div>
+      </div>
+
+      <!-- 色々書くところ -->
+      <div class="right-third">
+        <div class="right-third-left">
+          <div class="right-third-left-head">
+            <p class="deco">趣味・特技・自己PRなど</p>
+          </div>
+          <div class="right-third-left-body">
+            <p class="input">趣味・特技・自己PRなどを書く。</p> <!-- PRしてください。ブラウザではみ出ないくらいで。 -->
+          </div>
+        </div>
+        <div class="right-third-right">
+          <div class="right-third-right-head">
+            <p>通勤時間</p>
+          </div>
+          <div class="right-third-right-body">
+
+            <div class="right-third-right-body-top">
+              <p class="input_commute">
+                <span class="deco">約</span>
+                <span class="input">0</span> <!-- 通勤時間の目安を書いてください1 -->
+                <span class="deco">時間</span>
+                <span class="input">15</span> <!-- 通勤時間の目安を書いてください2 -->
+                <span class="deco">分</span>
+              </p>
+            </div>
+
+            <div class="right-third-right-body-center">
+              <p class="deco deco_dependents">扶養家族数(配偶者を除く)</p>
+              <p class="input_dependents">
+                <span class="deco">　　　　　</span>
+                <span class="input">0</span> <!-- 扶養家族数を書いてください1 -->
+                <span class="deco">人</span>
+              </p>
+            </div>
+
+            <div class="right-third-right-body-bottom">
+              <div class="right-third-right-body-bottom-left">
+                <p class="deco deco_spouse">配偶者</p>
+                <p class="deco deco_spouse_y_n">有 無</p>
+                <p class="input input_spouse_y_n">○</p> <!-- CSSでいい感じに動かしてください…(style.css:733) -->
+              </div>
+              <div class="right-third-right-body-bottom-right">
+                <p class="deco deco_spouse-support">配偶者の扶養義務</p>
+                <p class="deco deco_spouse-support_y_n">有 無</p>
+                <p class="input input_spouse-support_y_n">○</p> <!-- CSSでいい感じに動かしてください…(style.css:765) -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 本人記入欄 -->
+      <div class="right-bottom">
+        <div class="right-bottom-head">
+          <div class="right-bottom-row">
+            <p class="deco">本人記入欄</p>
+          </div>
+        </div>
+        <div class="right-bottom-body">
+          <div class="right-bottom-body_borders">
+            <div class="right-bottom-body_border"></div>
+            <div class="right-bottom-body_border"></div>
+            <div class="right-bottom-body_border"></div>
+            <div class="right-bottom-body_border"></div>
+          </div>
+          <div class="right-bottom-row">
+            <p class="input">貴社規定に従います。</p> <!-- 何か希望があれば書いてください。 -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
